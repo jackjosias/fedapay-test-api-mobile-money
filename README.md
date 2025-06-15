@@ -50,7 +50,7 @@ Suivez ces étapes pour mettre en place le projet :
 1.  **Créez la structure des dossiers :**
     ```bash
     # Naviguez vers votre répertoire de projet
-    cd /home/jack-josias/sys/systemd/sysctl/sysstat/config/linux/Fedapay Fo Charly/
+    cd /linux/Fedapay/
 
     # Créez les dossiers pour le backend et le frontend
     mkdir fedapay-express-backend
@@ -903,7 +903,7 @@ Pour démarrer l\'application de test :
     Laissez ce terminal ouvert.
 
 2.  **Démarrez le serveur frontend :**
-    Ouvrez votre éditeur de code (VS Code recommandé). Naviguez vers le répertoire `fedapay-frontend/`. Si vous utilisez l\'extension Live Server, faites un clic droit sur `index.html` et sélectionnez "Open with Live Server". Assurez-vous que Live Server sert le répertoire parent (`/home/jack-josias/sys/systemd/sysctl/sysstat/config/linux/Fedapay Fo Charly/`) comme racine, afin que les URLs comme `/fedapay-frontend/index.html` fonctionnent.
+    Ouvrez votre éditeur de code (VS Code recommandé). Naviguez vers le répertoire `fedapay-frontend/`. Si vous utilisez l\'extension Live Server, faites un clic droit sur `index.html` et sélectionnez "Open with Live Server". Assurez-vous que Live Server sert le répertoire parent (`/linux/Fedapay/`) comme racine, afin que les URLs comme `/fedapay-frontend/index.html` fonctionnent.
     Votre navigateur devrait s\'ouvrir sur une URL similaire à `http://127.0.0.1:5500/fedapay-frontend/index.html`.
 
 3.  **Testez les paiements :**
